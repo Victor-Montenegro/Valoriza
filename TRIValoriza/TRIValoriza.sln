@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valoriza.Application", "Valoriza.Application\Valoriza.Application.csproj", "{4A07F769-3CB0-4EC3-BDD0-7E42108E4EB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valoriza.Domain", "Valoriza.Domain\Valoriza.Domain.csproj", "{733699E5-B0C1-45A8-AD77-445F080E255E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A07F769-3CB0-4EC3-BDD0-7E42108E4EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A07F769-3CB0-4EC3-BDD0-7E42108E4EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A07F769-3CB0-4EC3-BDD0-7E42108E4EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A07F769-3CB0-4EC3-BDD0-7E42108E4EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{733699E5-B0C1-45A8-AD77-445F080E255E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{733699E5-B0C1-45A8-AD77-445F080E255E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{733699E5-B0C1-45A8-AD77-445F080E255E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{733699E5-B0C1-45A8-AD77-445F080E255E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DC6B852-CB27-4F88-A494-0DB61631A669}
+	EndGlobalSection
+EndGlobal
