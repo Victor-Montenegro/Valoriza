@@ -1,4 +1,5 @@
-﻿using Valoriza.Domain.Entities.Base;
+﻿using Valoriza.Core.Entities.Base;
+using Valoriza.Core.Services.Security;
 
 namespace Valoriza.Domain.Entities
 {
@@ -7,8 +8,7 @@ namespace Valoriza.Domain.Entities
         public string Name { get; private set; }
         public string Email { get; private set; }
         public bool Admin { get; private set; }
-        public string Passworld { get; private set; }
-
+        public string Password { get; private set; }
 
         public User(string name, string email, bool admin)
         {
@@ -17,24 +17,12 @@ namespace Valoriza.Domain.Entities
             Admin = admin;
         }
 
-        public User SetName(string name)
+        public User EncryptPassword(string passworld, ICryptographyService cryptographyService)
         {
-            Name = name;
+            string encryptedPassword = cryptographyService.GenerateEncryption(passworld);
 
-            return this;
-        }
-
-        public User SetEmail(string email)
-        {
-            Email = email;
-
-            return this;
-        }
-
-        public User EncryptPassworld(string passworld)
-        {
-            Passworld = passworld;
-
+            Password = encryptedPassword; 
+            
             return this;
         }
     }

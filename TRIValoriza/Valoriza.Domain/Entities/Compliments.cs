@@ -1,4 +1,4 @@
-﻿using Valoriza.Domain.Entities.Base;
+﻿using Valoriza.Core.Entities.Base;
 
 namespace Valoriza.Domain.Entities
 {

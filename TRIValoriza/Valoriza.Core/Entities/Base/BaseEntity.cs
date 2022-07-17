@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace Valoriza.Domain.Entities.Base
+namespace Valoriza.Core.Entities.Base
 {
     public abstract class BaseEntity
     {
-        public long Id { get; set; }
+        public int Id { get; set; }
 
         public DateTime CreationDate { get; set; }
 
